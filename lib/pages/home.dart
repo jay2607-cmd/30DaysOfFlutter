@@ -11,7 +11,11 @@ class homePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Home page"),
+          child: Text("Home page", style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.blue
+          ),),
         ),
       ),
       drawer: Drawer(),
